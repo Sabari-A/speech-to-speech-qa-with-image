@@ -3,11 +3,11 @@
 This project enables users to interact with images using audio input. Users can ask questions about an uploaded image, and the system will generate text-based responses using multimodal language models. 
 
 The workflow involves:
-1. Audio input: Users can record a question about the uploaded image using audio.
-2. Speech-to-text conversion: The audio is converted to text using Whisper, OpenAI's speech-to-text model.
-3. Question processing: The text input along with the image is processed using a multimodal language model like Llava.
-4. Text-based response: The model generates a response to the question in text format.
-5. Text-to-speech conversion: The text response is converted back to audio using the Google Text-to-Speech (gTTs) library.
+1. **Audio input**: Users can record a question about the uploaded image using audio.
+2. **Speech-to-text conversion**: The audio is converted to text using Whisper, OpenAI's speech-to-text model.
+3. **Question processing**: The text input along with the image is processed using a multimodal language model like Llava.
+4. **Text-based response**: The model generates a response to the question in text format.
+5. **Text-to-speech conversion**: The text response is converted back to audio using the Google Text-to-Speech (gTTs) library.
 
 ## Usage
 To use the project, follow these steps:
